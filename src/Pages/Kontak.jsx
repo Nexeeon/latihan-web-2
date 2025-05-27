@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../component/Navbar'
 import Footer from '../component/footer'
 import { AtSign, User } from 'lucide-react';
+import NameCard from '../component/namecard';
 
 export default function Kontak() {
   return (
@@ -68,6 +69,8 @@ export default function Kontak() {
           </div>
         </div>
       </div>
+      <NameCard />
+      
       <Footer />
     </div>
   );
